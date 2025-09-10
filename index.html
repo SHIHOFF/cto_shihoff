@@ -21,7 +21,8 @@ body{margin:0;font-family:Inter, Roboto, Arial, sans-serif;background:var(--bg);
 .brand h1 .title{font-weight:800;background:linear-gradient(90deg,#ffd200,#ffcc00);-webkit-background-clip:text;background-clip:text;color:transparent}
 .tagline{color:var(--muted);margin-top:8px}
 .contact{min-width:240px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:14px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
-.contact .phone{color:var(--accent);font-weight:700;font-size:20px}
+.contact a{color:var(--accent);font-weight:700;font-size:20px;text-decoration:none}
+.contact a:hover{text-decoration:underline}
 .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-top:18px}
 .card{background:var(--card);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
 .card h3{margin:0;font-size:18px;color:#fff}
@@ -44,7 +45,7 @@ footer{margin-top:26px;text-align:center;color:var(--muted);font-size:14px;paddi
         </div>
 
         <aside class="contact" aria-label="контакты СТО">
-          <div class="phone">8-952-892-46-60</div>
+          <div class="phone"><a href="tel:+79528924660">8-952-892-46-60</a></div>
           <div style="margin-top:8px;color:var(--muted)">г. Томск, ул. 2 Усть-Киргизка, д. 23, стр. 1</div>
           <div style="margin-top:8px;color:var(--muted)"><b>График:</b> Пн–Сб 09:00–19:00 🕖 (по предварительной записи)</div>
         </aside>
@@ -74,7 +75,7 @@ footer{margin-top:26px;text-align:center;color:var(--muted);font-size:14px;paddi
     </section>
 
     <div class="map">
-      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6d6d5f6f6d9f31c5d59a44&source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+      <iframe src="https://yandex.ru/map-widget/v1/?ll=84.995134%2C56.497939&z=17&text=%D0%A2%D0%BE%D0%BC%D1%81%D0%BA%2C%202-%D1%8F%20%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B8%D1%80%D0%B3%D0%B8%D0%B7%D0%BA%D0%B0%2023%20%D1%81%D1%82%D1%80%201" width="100%" height="100%" frameborder="0"></iframe>
     </div>
 
     <footer>
